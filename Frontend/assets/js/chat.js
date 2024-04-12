@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   $(window).load(function() {
     $messages.mCustomScrollbar();
-    insertResponseMessage('Hi there, I\'m your personal Concierge. How can I help?');
+    insertResponseMessage('Hi there, I\'m Anish\'s Concierge Chatbot. How can I help?');
   });
 
   function updateScrollbar() {
@@ -99,12 +99,12 @@ $(document).ready(function() {
   })
 
   function insertResponseMessage(content) {
-    $('<div class="message loading new"><figure class="avatar"><img src="https://media.tenor.com/images/4c347ea7198af12fd0a66790515f958f/tenor.gif" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+    $('<div class="message loading new"><figure class="avatar"><img src="https://media1.tenor.com/m/OC_60dzzgy0AAAAC/bsd-bungo-stray-dogs.gif" /></figure><span></span></div>').appendTo($('.mCSB_container'));
     updateScrollbar();
 
     setTimeout(function() {
       $('.message.loading').remove();
-      $('<div class="message new"><figure class="avatar"><img src="https://media.tenor.com/images/4c347ea7198af12fd0a66790515f958f/tenor.gif" /></figure>' + content + '</div>').appendTo($('.mCSB_container')).addClass('new');
+      $('<div class="message new"><figure class="avatar"><img src="https://media1.tenor.com/m/OC_60dzzgy0AAAAC/bsd-bungo-stray-dogs.gif" /></figure>' + content + '</div>').appendTo($('.mCSB_container')).addClass('new');
       setDate();
       updateScrollbar();
       i++;

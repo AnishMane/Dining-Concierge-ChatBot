@@ -145,10 +145,10 @@ Messages
   position: absolute;
   z-index: 1;
   bottom: -15px;
-  left: -35px;
-  border-radius: 30px;
-  width: 30px;
-  height: 30px;
+  left: -65px;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
   overflow: hidden;
   margin: 0;
   padding: 0;
