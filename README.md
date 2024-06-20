@@ -14,8 +14,7 @@ We have support for Yelp-API with suggestions and real time chat.
 8. Lambda - To send data from the frontend to API and API to Lex, validation, collecting restaurant data, sending suggestions using SNS.
 9. Yelp API - To get suggestions for food
 
-![diagram](https://github.com/adsurvase/Dining-Concierge-Chatbot/blob/main/Screenshot/Assignment%201%20architecture%20diagram.png)
-
+<img width="929" alt="Architecture" src="https://github.com/AnishMane/Dining-Concierge-ChatBot/assets/112772218/bec8be8f-f046-4d7d-bab1-ca4b0bf98ec1">
 
 
 ## Steps
@@ -90,8 +89,9 @@ We have support for Yelp-API with suggestions and real time chat.
                     that you will notify them over SMS once you have the list of
                     restaurant suggestions.
                     
- 
- ![example](https://github.com/adsurvase/Dining-Concierge-Chatbot/blob/main/Images/Screen%20Shot%202022-03-03%20at%208.20.54%20PM.png)
+
+<img width="827" alt="UserInteraction" src="https://github.com/AnishMane/Dining-Concierge-ChatBot/assets/112772218/c8aa471f-229c-40a2-986d-b9fb0060ee94">
+
 
 4. Integrate the Lex chatbot into your chat API
 
